@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+
+/*  Cap 15 Aula 01
+
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+body {
+    background-color: #0af0d54d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #047064;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #047064;
+    color: white;
+}
+
+h2 {
+    color: #0ba190;
+}
+
+.basico {
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: rgb(145, 145, 8);
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(177, 177, 66, 0.651);
+}

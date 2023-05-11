@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--
+    Cap 10 Aula 01-02-03 - Links e Âncoras
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>
+        Você pode acessar o site da <a href="https://www.soulgamer.net" target ="_blank" rel="external">Soul Gamer e Informática</a> e adquirir seus produtos Gamers!
+    </p>
+    <p>
+        Ou... ir na <a href="https://www.amazon.com.br/?&linkCode=ll2&tag=operagx-desktop-br-20&linkId=0c5896fd250c025d414d54f4ebef8b6c&language=pt_BR&ref_=as_li_ss_tl" target="_blank" rel="external">amazon</a> e também adquirir seus produtos de A - Z!
+    </p>
+    <h1>Usando links internos</h1>
+    <p>
+        Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a> <!--Para links ou páginas internos(as) não precisa colocar a URL do site. Portanto que as duas páginas estejam em uma mesma pasta.-->
+    </p>
+    <p>
+        Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>
+    </p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/Perfil Linkedin - Matheus Galdino.pdf" download="Perfil Linkedin - Matheus Galdino.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/Perfil Linkedin - Matheus Galdino.zip" download="Perfil Linkedin - Matheus Galdino.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
+
+<!--
+    Quando quero levar o usuário para uma página (site), que esteja pronto, é indicado usar tais comandos: Target (onde será colocado o link do site externo) e rel (indicar para o navegador que o tal link é externo)
+-->

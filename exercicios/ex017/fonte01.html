@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--
+    Cap 13 Aula 03-05
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = em
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-wight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero harum ab tempore, et alias exercitationem sed velit, deleniti suscipit, voluptates rerum earum consequatur placeat corporis aut rem laudantium. Nulla, vitae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, illo accusantium! Explicabo accusantium alias ratione odio! Fugiat, dolore eos? Aspernatur dolores quae quidem at accusamus quam iusto ea minima consectetur!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci reprehenderit reiciendis ad inventore. Eligendi facere, similique deleniti voluptatum sapiente molestiae commodi iure dignissimos, quam, nemo reiciendis dolorum iste nobis corporis!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque recusandae, temporibus doloremque veniam dolores sit voluptates fugiat deleniti sed adipisci praesentium repellendus culpa ipsa. Doloribus iusto tempora blanditiis beatae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid incidunt quia dolor nihil, dignissimos quas assumenda modi consequuntur blanditiis sequi, labore at. Voluptas quas sint ipsum doloremque earum, repellat quod?
+    </p>
+</body>
+</html>
