@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauto no espaço</title>
     <style>
-        #container {
-            background-image: url(espaco.jpg);
+        body {
+            background: black url(imagens/espaco.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
-        #conteudo {
+        div {
+            position: absolute;
 
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <section id="container">
-        <article id="conteudo">
-
-        </article>
-    </section>
+    <div>
+        <img src="imagens/astronauta.png" alt="">
+    </div>
 </body>
 </html>
