@@ -98,6 +98,7 @@ form [type="submit"] {
     background-color: rgb(132, 14, 201);
     color: white;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 form [type="submit"]:hover {
