@@ -61,6 +61,17 @@ body {
     grid-template-rows: 100vh;
 }
 
+body aside p a {
+    color: white;
+    text-decoration: none;
+
+    transition: 0.25s ease-in-out;
+}
+
+body aside p a:hover {
+    color: var(--corFotoPerfil3);
+}
+
 nav {
     padding: 64px;
     grid-area: timeline;
@@ -115,6 +126,18 @@ nav {
     line-height: 28px;
 
     text-align: justify;
+}
+
+.memory a {
+    color: white;
+    text-decoration: none;
+
+    background-color: #633bbc;
+    border-radius: 5px;
+}
+
+.memory span {
+    color: var(--corFotoPerfil3);
 }
 
 aside {
