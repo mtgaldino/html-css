@@ -1,6 +1,10 @@
 # html-css
- Curso de HTML5 e CSS3 pelo CursoemVideo
+ Indícice para os meus projetos em HTML E CSS
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href = "https://mtgaldino.github.io/html-css/desafios/desafio10/">Executar o desafio 10</a>
+ <h1>Meus projetos</h1>
+
+ <ul>
+      <li>Artigo sobre a logo do <a href="https://mtgaldino.github.io/projeto-android/" target="blank_" rel="external">Android</a></li>
+ </ul>
