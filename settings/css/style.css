@@ -1,0 +1,7 @@
+.class {
+    background-color: white;
+}
+
+section, h1, div {
+    margin: auto;
+}
