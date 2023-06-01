@@ -44,3 +44,19 @@ body * {
     line-height: 24px;
     margin-top: 8px;
 }
+
+/* Links  */
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* espaçamento entre os elementos */
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
