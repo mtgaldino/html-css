@@ -13,6 +13,7 @@
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
+    --switch-bg-url: url(./imagens/moon-stars.svg);
 }
 
 .light {
@@ -22,6 +23,7 @@
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(0, 0, 0, 0.1);
+    --switch-bg-url: url(./imagens/sun.svg);
 }
 
 body {
@@ -66,16 +68,51 @@ body * {
 }
 
 /* switch */
+#switch {
+    /* Alinhamento usando o positon: relative (display: block) */
+    position: relative;
+    width: 64px;
+
+    margin: 4px auto;
+}
+
 #switch button {
     width: 32px;
     height: 32px;
-    background: white url(imagens/moon-stars.svg) no-repeat center;
+    background: white var(--switch-bg-url) no-repeat center;
     border: 0;
     border-radius: 50%;
+
+    /* Alinhamento usando o positon: absolute */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.light #switch button {
+    right: 0;
+    left: initial;
+}
+
+/* track */
+#switch span {
+    display: block;
+
+    width: 64px;
+    height: 24px;
+
+    background: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 9999px;
 }
 
 /* Links  */
 ul {
+    /* Alinhamento usando o display: flex */
     display: flex;
 
     flex-direction: column;
@@ -87,6 +124,7 @@ ul {
 }
 
 ul li a {
+    /* Alinhamento usando o display: flex */
     display: flex;
 
     justify-content: center;
@@ -114,6 +152,7 @@ ul li a:hover {
 
 /* social-links */
 #social-links {
+    /* Alinhamento usando o display: flex */
     display: flex;
     justify-content: center;
 
@@ -123,6 +162,7 @@ ul li a:hover {
 }
 
 #social-links a {
+    /* Alinhamento usando o display: flex */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +178,7 @@ ul li a:hover {
 
 footer {
     padding: 24px 0;
+    /* Alinhamento de texto */
     text-align: center;
     font-size: 14px;
 }
