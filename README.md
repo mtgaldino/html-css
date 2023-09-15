@@ -14,3 +14,7 @@
   <ul>
       <li>Projeto feito durante o evento NLW-SpaceTime <a href="https://mtgaldino.github.io/projeto-nlw-spaceTime/" target="blank_" rel="external">Cápsula do Tempo</a></li>
  </ul>
+
+ <ul>
+     <li>Projeto de site: <a href="https://mtgaldino.github.io/projeto-universoglass/" target="blank_" rel="external">Universo Glass</a></li>
+ </ul>
